@@ -57,7 +57,7 @@ Working from the data source: election_results.csv file, this analysis utilized 
 16. Using an if statement, determine winning vote count, winning percentage, and candidate.
 
 ### Election-Audit Results
-  - There were 369,711 votes cast in this congressional election. This number agrees with the initial election summary provided.
+  - There were 369,711 votes cast in this congressional election. This number agrees with the initial election summary.
 
 #### Election Analysis Results
 
