@@ -57,7 +57,6 @@ Working from the data source: election_results.csv file, this analysis utilized 
   - There were 369,711 votes cast in this congressional election. this number agrees with the initial election summary provided.
 
 ![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117873277-35dc4080-b265-11eb-9e39-5a236dec67e7.png)
-
 ![Election_Analysis_terminal](https://user-images.githubusercontent.com/67847583/117862835-b8aace80-b258-11eb-9a92-d9d660186a9e.png)
 
 
