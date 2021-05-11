@@ -13,9 +13,9 @@ The objective of the election analysis project is to provide an audit of the res
 - Software: Python 3.9.1, Visual Studio Code, 1.56.0
 
 ## Initial Summary
-The analysis of the election show that:
+The initial analysis of the election show that:
 - There were 369,711 votes cast in the election.
-- The candidates were:
+#### The candidates were:
 - Charles Casper Stockham
 - Diana DeGette
 - Raymon Anthony Doane
@@ -53,7 +53,7 @@ Working from the data source: election_results.csv file, this analysis utilized 
 16. Using an if statement, determine winning vote count, winning percentage, and candidate.
 
 ### Election-Audit Results
-  - There were 369,711 votes cast in this congressional election. this number agrees with the initial election summary provided.
+  - There were 369,711 votes cast in this congressional election. This number agrees with the initial election summary provided.
 
 ![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117873277-35dc4080-b265-11eb-9e39-5a236dec67e7.png)
 ![Election_Analysis_terminal](https://user-images.githubusercontent.com/67847583/117862835-b8aace80-b258-11eb-9a92-d9d660186a9e.png)
@@ -82,23 +82,23 @@ Working from the data source: election_results.csv file, this analysis utilized 
 
 ### Election-Audit Summary
 #### The Ask
-The election commission explores how this script can be used for any election, with two examples for modifying the script
+The election commission explores how this script can be used for any election, with two examples for modifying the script.
 If we decomposed the ask by making the following assumptions:
-1. users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file
-2. we may or may not assume that every csv file will have three columns with Candidate name and County name as the second and third columns
+1. Users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file without needing to change the file name or file path in the code.
+2. We may or may not assume that every csv file will have three columns with County name and Candidate name as the second and third columns respectively.
 
 ##### Define Data Source
-we may propose a solution that provides the us an input to enter a url to their csv. we would ensure to have a central file repository where different counties can upload the csv files
-an alternative is to provide user with he ability to input the name of their csv file and the parent folder of the file. we would then use an indirect path method to locate and read the file on the users machine
+We may propose a solution that provides the user with he ability to input the name of their csv file and the parent folder of the file. We would then use an indirect path method to locate and read the file on the users machine. This way our script is flexible enough to take any csv file without making any changes to the code.
 
 ##### Column Names and Column Position
-With the assumption that column names and position will not always be same for all csv files across all preccincts, we may modify our code to allow the user input the column name that contains county name and candidate name.
+With the assumption that column names and position will not always be same for all csv files across all preccincts, we may modify our code to allow the user input the column name that contains county name and candidate name. Our script will then attempt to match user input with the column names in the csv file 
 
 By implementing these two modifications, our script can be used for any county across the US.
 
-Our modified control flow may look like the following:
+##### Our modified control flow may look like the following:
 1. Add our dependencies
 2. Declare a user input variable for the file name and the parent folder
-3. Read the column names as output to the user and request confirmation for county column and candidate column
-4. Set county name and candidate name to the columns provided by the user
-5. We may then pocess the rest of the script as before to determine total votes, candidates summary, and county summary
+3. If the file is not found, prompt the user for file name again
+4. If the file is found, read the column names as output to the user and request confirmation for county column and candidate column
+5. Set county name and candidate name to the columns provided by the user
+6. We may then pocess the rest of the script as before to determine total votes, candidates summary, and county summary
