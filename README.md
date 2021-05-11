@@ -52,20 +52,40 @@ Working from the data source: election_results.csv file, this analysis utilized 
 14. Print the county with the largest turnout to the terminal and save to the target text file.
 15. Using csv's write method, save the final candidate vote count to the text file.
 16. Using an if statement, determine winning vote count, winning percentage, and candidate.
+
 ### Election-Audit Results
   - There were 369,711 votes cast in this congressional election
+
 ##### Candidate Results
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes won the election
+
 ##### County Results
   - The county with the largest turnout was Denver
-  - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-  - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+  - Jefferson county received 10.5% of the votes and 38,855 total votes
+  - Denver county received 82.8% of the votes and 306,055 total votes
+  - Arapahoe county received 6.7% of the votes and 24,801 total votes
+  - Denver county had the largest voter turnout.
 
-![Largest_County_Turnout](https://user-images.githubusercontent.com/67847583/117727317-7b3d3700-b1ad-11eb-8bf3-d120a2a240b7.png)
+![Candidate_Results](https://user-images.githubusercontent.com/67847583/117764027-726e5480-b1f1-11eb-8a9f-834b980b5167.png)
+![County_Results](https://user-images.githubusercontent.com/67847583/117764041-77330880-b1f1-11eb-8124-6ec7e6514055.png)
+![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117765698-050ff300-b1f4-11eb-84b3-ec879bfe42f7.png)
 
 
 ### Election-Audit Summary
   - In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+If we decomposed he ask by making the following assumptions:
+1. users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file
+2. we may or may not assume that evry csv file will have three columns with Candidate name and county name as the second and third columns
+
+##### Data Source
+we may propose a solution that provides the us an input to enter a url to their csv. we would ensure to have a central file repository where different counties can upload the csv files
+an alternative is to provide user with he ability to input the name of their csv file and the parent folder of the file. we would then use an indirect path method to locate and read the file on the users machine
+
+##### Column Names and Column Position
+With the assumption that column names and position will not always be same for all csv files across all preccincs, we may modify our code to allow the user input the column name that contains county name and candidate name.
+By implementing these two modifications, our script can be used for any county across the US.
+
+Our control flow may look like the following:
