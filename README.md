@@ -1,7 +1,6 @@
 # Election_Analysis
 ## Project Overview
-The objective of the election analysis project is use to to provide an audit of results of a recent local congressional election in coloroado
-At the end of the analysis our python script will be able to give the following details:
+The objective of the election analysis project is to provide an audit of the results of a recent local congressional election in Colorado. At the end of the analysis, our python script will be able to give the following details:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
