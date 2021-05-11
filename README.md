@@ -79,7 +79,6 @@ Working from the data source: election_results.csv file, this analysis utilized 
 
 
 ### Election-Audit Summary
-  - In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 If we decomposed he ask by making the following assumptions:
 1. users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file
 2. we may or may not assume that evry csv file will have three columns with Candidate name and county name as the second and third columns
@@ -92,4 +91,9 @@ an alternative is to provide user with he ability to input the name of their csv
 With the assumption that column names and position will not always be same for all csv files across all preccincs, we may modify our code to allow the user input the column name that contains county name and candidate name.
 By implementing these two modifications, our script can be used for any county across the US.
 
-Our control flow may look like the following:
+Our modified control flow may look like the following:
+1. Add our dependencies
+2. Declare a user input variable for the file name and the parent folder
+3. Read the column names as output to the user and request confirmation for county column and candidate column
+4. Set county name and candidate name to the columns provided by the user
+5. We may then pocess the rest of the script as before to determine total votes, candidates summary, and county summary
