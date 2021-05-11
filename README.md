@@ -56,6 +56,8 @@ Working from the data source: election_results.csv file, this analysis utilized 
 ### Election-Audit Results
   - There were 369,711 votes cast in this congressional election
 
+![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117768286-cda34580-b1f7-11eb-8f2d-70a60c1e7271.png)
+
 ##### Candidate Results
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
@@ -69,9 +71,11 @@ Working from the data source: election_results.csv file, this analysis utilized 
   - Arapahoe county received 6.7% of the votes and 24,801 total votes
   - Denver county had the largest voter turnout.
 
-![Candidate_Results](https://user-images.githubusercontent.com/67847583/117764027-726e5480-b1f1-11eb-8a9f-834b980b5167.png)
-![County_Results](https://user-images.githubusercontent.com/67847583/117764041-77330880-b1f1-11eb-8124-6ec7e6514055.png)
-![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117765698-050ff300-b1f4-11eb-84b3-ec879bfe42f7.png)
+![Candidate_Results](https://user-images.githubusercontent.com/67847583/117766880-d72bae00-b1f5-11eb-9442-ef5951aa8334.png)
+![County_Results](https://user-images.githubusercontent.com/67847583/117766895-ddba2580-b1f5-11eb-928d-9a28ab181b5b.png)
+
+
+
 
 
 ### Election-Audit Summary
