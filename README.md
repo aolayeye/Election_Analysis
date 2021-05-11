@@ -80,14 +80,14 @@ Working from the data source: election_results.csv file, this analysis utilized 
 
 
 
-### Election-Audit Summary
-#### The Ask
+## Election-Audit Summary
+### The Ask
 The election commission explores how this script can be used for any election, with two examples for modifying the script.
 If we decomposed the ask by making the following assumptions:
 1. Users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file without needing to change the file name or file path in the code.
 2. We may or may not assume that every csv file will have three columns with County name and Candidate name as the second and third columns respectively.
 
-#### The Solution
+### The Solution
 ##### Define Data Source
 We may propose a solution that provides the user with he ability to input the name of their csv file and the parent folder of the file. We would then use an indirect path method to locate and read the file on the users machine. This way our script is flexible enough to take any csv file without making any changes to the code.
 
