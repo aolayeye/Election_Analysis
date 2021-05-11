@@ -34,6 +34,8 @@ The purpose of this analysis is to audit the tabulated results for a US congress
   - The county with the highest turnout
 Working from the data source: election_results.csv file, this analysis utilized for loops and conditional statements with membership and logical operators to find the requested results. Then, printed the results to the command line and saved them to an election_results.txt file.
 
+#### County Results Code
+
 ![County_Results_Code](https://user-images.githubusercontent.com/67847583/117883236-c9ffd500-b270-11eb-96d6-7ff27de95338.png)
 
 #### Control Flow
@@ -57,6 +59,8 @@ Working from the data source: election_results.csv file, this analysis utilized 
 ### Election-Audit Results
   - There were 369,711 votes cast in this congressional election. This number agrees with the initial election summary provided.
 
+#### Election Analysis Results
+
 ![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117873277-35dc4080-b265-11eb-9e39-5a236dec67e7.png)
 ![Election_Analysis_terminal](https://user-images.githubusercontent.com/67847583/117862835-b8aace80-b258-11eb-9a92-d9d660186a9e.png)
 
@@ -74,6 +78,8 @@ Working from the data source: election_results.csv file, this analysis utilized 
   - Denver county received 82.8% of the votes and 306,055 total votes.
   - Arapahoe county received 6.7% of the votes and 24,801 total votes.
   - Denver county had the largest voter turnout.
+
+##### Candidate and County Results
 
 ![Candidate_Results](https://user-images.githubusercontent.com/67847583/117766880-d72bae00-b1f5-11eb-9442-ef5951aa8334.png)
 ![County_Results](https://user-images.githubusercontent.com/67847583/117766895-ddba2580-b1f5-11eb-928d-9a28ab181b5b.png)
