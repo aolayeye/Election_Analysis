@@ -1,7 +1,7 @@
 # Election_Analysis
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local
-congressional election.
+The objective of the election analysis project is use to to provide an audit of results of a recent local congressional election in coloroado
+At the end of the analysis our python script will be able to give the following details:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -13,7 +13,7 @@ congressional election.
 - Data Source: election_results.csv
 - Software: Python 3.9.1, Visual Studio Code, 1.56.0
 
-## Summary
+## Initial Summary
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The candidates were:
@@ -54,7 +54,7 @@ Working from the data source: election_results.csv file, this analysis utilized 
 16. Using an if statement, determine winning vote count, winning percentage, and candidate.
 
 ### Election-Audit Results
-  - There were 369,711 votes cast in this congressional election
+  - There were 369,711 votes cast in this congressional election. this number agrees with the initial election summary provided.
 
 ![Election_Analysis_txt](https://user-images.githubusercontent.com/67847583/117768286-cda34580-b1f7-11eb-8f2d-70a60c1e7271.png)
 
@@ -79,16 +79,19 @@ Working from the data source: election_results.csv file, this analysis utilized 
 
 
 ### Election-Audit Summary
-If we decomposed he ask by making the following assumptions:
+#### The Ask
+The election commission explores how this script can be used for any election, with two examples for modifying the script
+If we decomposed the ask by making the following assumptions:
 1. users of the script may or may not have knowledge of python and they would require an easy way to specify their csv file
-2. we may or may not assume that evry csv file will have three columns with Candidate name and county name as the second and third columns
+2. we may or may not assume that every csv file will have three columns with Candidate name and County name as the second and third columns
 
-##### Data Source
+##### Define Data Source
 we may propose a solution that provides the us an input to enter a url to their csv. we would ensure to have a central file repository where different counties can upload the csv files
 an alternative is to provide user with he ability to input the name of their csv file and the parent folder of the file. we would then use an indirect path method to locate and read the file on the users machine
 
 ##### Column Names and Column Position
-With the assumption that column names and position will not always be same for all csv files across all preccincs, we may modify our code to allow the user input the column name that contains county name and candidate name.
+With the assumption that column names and position will not always be same for all csv files across all preccincts, we may modify our code to allow the user input the column name that contains county name and candidate name.
+
 By implementing these two modifications, our script can be used for any county across the US.
 
 Our modified control flow may look like the following:
