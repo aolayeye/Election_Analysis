@@ -13,18 +13,18 @@ The objective of the election analysis project is to provide an audit of the res
 - Software: Python 3.9.1, Visual Studio Code, 1.56.0
 
 ## Initial Summary
-The initial analysis of the election show that:
+The initial analysis of the election shows that:
 - There were 369,711 votes cast in the election.
 #### The candidates were:
 - Charles Casper Stockham
 - Diana DeGette
 - Raymon Anthony Doane
 #### The candidate results were:
-- Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-- Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-- Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+- Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
+- Diana DeGette received 73.8% of the vote and 272,892 votes.
+- Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
 #### The winner of the election was:
-- Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+- Diana DeGette, who received 73.8% of the vote and 272,892 votes.
 
 ## Overview of Election Audit
 ### This section provides insight into the the purpose of this election audit analysis.
@@ -61,16 +61,16 @@ Working from the data source: election_results.csv file, this analysis utilized 
 
 
 ##### Candidate Results
-  - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-  - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-  - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-  - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes won the election
+  - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
+  - Diana DeGette received 73.8% of the vote and 272,892 votes.
+  - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
+  - Diana DeGette, who received 73.8% of the vote and 272,892 votes, won the election
 
 ##### County Results
-  - The county with the largest turnout was Denver
-  - Jefferson county received 10.5% of the votes and 38,855 total votes
-  - Denver county received 82.8% of the votes and 306,055 total votes
-  - Arapahoe county received 6.7% of the votes and 24,801 total votes
+  - The county with the largest turnout was Denver.
+  - Jefferson county received 10.5% of the votes and 38,855 total votes.
+  - Denver county received 82.8% of the votes and 306,055 total votes.
+  - Arapahoe county received 6.7% of the votes and 24,801 total votes.
   - Denver county had the largest voter turnout.
 
 ![Candidate_Results](https://user-images.githubusercontent.com/67847583/117766880-d72bae00-b1f5-11eb-9442-ef5951aa8334.png)
