@@ -10,7 +10,7 @@ The objective of the election analysis project is to provide an audit of the res
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.9.1, Visual Studio Code, 1.56.1
+- Software: Python 3.9.5, Visual Studio Code, 1.56.1
 
 ## Initial Summary
 The initial analysis of the election shows that:
