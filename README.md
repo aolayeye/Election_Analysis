@@ -10,7 +10,7 @@ The objective of the election analysis project is to provide an audit of the res
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.9.1, Visual Studio Code, 1.56.0
+- Software: Python 3.9.1, Visual Studio Code, 1.56.1
 
 ## Initial Summary
 The initial analysis of the election shows that:
@@ -33,6 +33,8 @@ The purpose of this analysis is to audit the tabulated results for a US congress
   - The percentage of votes from each county out of the total count
   - The county with the highest turnout
 Working from the data source: election_results.csv file, this analysis utilized for loops and conditional statements with membership and logical operators to find the requested results. Then, printed the results to the command line and saved them to an election_results.txt file.
+
+![County_Results_Code](https://user-images.githubusercontent.com/67847583/117883236-c9ffd500-b270-11eb-96d6-7ff27de95338.png)
 
 #### Control Flow
 1. Add our dependenies
